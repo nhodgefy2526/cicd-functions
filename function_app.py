@@ -74,11 +74,11 @@ def analyze_number(num):
     # TODOs 2-5.
 
     response = {
-        "sum_of_digits": 10,
-        "is_prime": false,
-        "is_odd": false,
-        "is_perfect": true,
-        "is_triangular": true
-        }
+        "sum_of_digits": sum_of_digits,
+        "is_prime": is_prime,
+        "is_odd": is_odd,
+        "is_perfect": is_perfect,
+        "is_triangular": is_triangular
+    }
 
     return response
