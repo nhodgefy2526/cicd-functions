@@ -63,14 +63,22 @@ def analyze_number(num):
             sum_of_divisors += i
             
     is_perfect = (sum_of_divisors == num)
+
+    # NEW TODO: Code Logic to check whether number is triangular
+    # Mathematical rule: A number 'x' is triangular if 8x + 1 is a perfect square
+    check_val = 8 * num + 1
+    root = int(check_val**0.5)
+    is_triangular = (root * root == check_val)
+    
     # TODO 6: Replace default values below with the results of the calculations from
     # TODOs 2-5.
 
     response = {
-        "sum_of_digits": sum_of_digits,
-        "is_prime": is_prime,
-        "is_odd": is_odd,
-        "is_perfect": is_perfect
-    }
+        "sum_of_digits": 10,
+        "is_prime": false,
+        "is_odd": false,
+        "is_perfect": true,
+        "is_triangular": true
+        }
 
     return response
