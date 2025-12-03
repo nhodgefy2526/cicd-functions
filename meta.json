@@ -1,3 +1,7 @@
 {
-    "task1_function_endpoint": "https://nhodgefuncapp-ach8cjapesgnd7ah.eastus-01.azurewebsites.net/api/http_trigger",
+    "github_username": "nhodgefy2526",
+    "repository": "cicd-functions",
+    "token": "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",
+    "function_app_name": "nhodgefuncapp",
+    "task2_function_endpoint": "https://nhodgefuncapp-ach8cjapesgnd7ah.eastus-01.azurewebsites.net/api/http_trigger"
 }
